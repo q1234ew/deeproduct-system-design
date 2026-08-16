@@ -2,7 +2,10 @@
 
 `deeproduct-system-design` 是一个遵循 [Agent Skills](https://agentskills.io/) 规范的产品系统设计 Skill。它帮助 AI 基于产品目标和项目证据完成新系统设计、现有架构评审、能力演进与轻量技术决策，并主动抑制无依据的过度设计。
 
-这套方法最初从大型插件化 Agent 工程实践中提炼，但核心流程不依赖 Agent、特定框架、编程语言或云平台。领域指南覆盖 SaaS、工作流、第三方集成、数据平台、Web 应用和 Agent 系统。
+这套方法最初从开源项目 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的分层 Agent 工程规则、插件架构、能力设计、生命周期管理、持久状态、测试证据和文档治理实践中总结并泛化，但核心流程不依赖 Agent、Cordis、特定框架、编程语言或云平台。领域指南覆盖 SaaS、工作流、第三方集成、数据平台、Web 应用和 Agent 系统。
+
+> [!NOTE]
+> 本项目是独立的社区方法整理，不是 DeepSeek AI 或 Cordis 的官方项目。详细的方法来源、演化范围和贡献者致谢见 [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md)。
 
 ## 设计目标
 
@@ -117,6 +120,7 @@ Skill 按以下流程工作：
 deeproduct-system-design/
 ├── SKILL.md                     # 工作流、规则和按需加载入口
 ├── AGENTS.md                    # 本仓库维护规则
+├── ACKNOWLEDGEMENTS.md          # 方法来源、演化范围与致谢
 ├── references/
 │   ├── core/                    # 通用产品系统设计方法
 │   │   ├── problem-framing.md
@@ -181,6 +185,12 @@ Skill 根据任务按需组合领域指南：
 - 小问题强行套用完整模板。
 
 当前评估案例覆盖小型 SaaS、工作流集成和已有系统评审。
+
+## 来源与致谢
+
+本 Skill 的初始设计方法来自对 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 公开工程实践的学习，重点包括“一切皆插件”、Definition / Provider / Consumer 能力设计、可逆副作用、异步生命周期所有权、持久事实与投影、执行点安全控制，以及按影响面选择验证证据。
+
+感谢 [DeepSeek AI](https://www.deepseek.com/)、[DeepSeek Harness contributors](https://github.com/deepseek-ai/deepseek-harness/graphs/contributors)、[Cordis](https://github.com/cordiverse/cordis) 及其贡献者公开这些代码、文档和设计实践。本 Skill 对相关思想进行了通用化整理，不复制其项目专属 API 和工程约束，也不代表相关项目的官方立场或背书。完整说明见 [`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md)。
 
 ## 参与改进
 
