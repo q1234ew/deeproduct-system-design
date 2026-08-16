@@ -121,6 +121,7 @@ deeproduct-system-design/
 ├── SKILL.md                     # 工作流、规则和按需加载入口
 ├── AGENTS.md                    # 本仓库维护规则
 ├── ACKNOWLEDGEMENTS.md          # 方法来源、演化范围与致谢
+├── LICENSE                      # MIT License
 ├── references/
 │   ├── core/                    # 通用产品系统设计方法
 │   │   ├── problem-framing.md
@@ -203,3 +204,7 @@ Skill 根据任务按需组合领域指南：
 - 优先删除重复和无证据的规则，而不是持续扩充检查表。
 
 提交前至少检查 Skill Frontmatter、相对链接、Markdown 格式，并在一个没有等价项目指令的外部代码库完成对照评估。
+
+## License
+
+本项目采用 [MIT License](LICENSE)。
