@@ -1,5 +1,7 @@
 # Deeproduct System Design
 
+> Evidence-informed product system design and architecture review.
+
 `deeproduct-system-design` 是一个遵循 [Agent Skills](https://agentskills.io/) 规范的产品系统设计 Skill。它帮助 AI 基于产品目标和项目证据完成新系统设计、现有架构评审、能力演进与轻量技术决策，并主动抑制无依据的过度设计。
 
 这套方法最初从开源项目 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的分层 Agent 工程规则、插件架构、能力设计、生命周期管理、持久状态、测试证据和文档治理实践中总结并泛化，但核心流程不依赖 Agent、Cordis、特定框架、编程语言或云平台。领域指南覆盖 SaaS、工作流、第三方集成、数据平台、Web 应用和 Agent 系统。
@@ -9,7 +11,7 @@
 
 ## 设计目标
 
-- **证据驱动**：区分事实、推断、假设和提案，先理解现有系统再提出结构。
+- **以证据为依据**：区分事实、推断、假设和提案，先理解现有系统再提出结构。
 - **产品导向**：从用户结果、约束和非目标出发，而不是从架构模式出发。
 - **责任清晰**：明确能力、状态、资源和异步操作的所有者。
 - **生命周期完整**：覆盖提交、失败、取消、恢复、重试和清理，而不只描述成功路径。

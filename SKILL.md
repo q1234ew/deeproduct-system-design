@@ -1,6 +1,6 @@
 ---
 name: deeproduct-system-design
-description: Evidence-driven product system design and architecture review for greenfield products, existing systems, feature evolution, and lightweight designs. Use when defining system responsibilities, capability boundaries, authoritative state, lifecycle ownership, security enforcement, extensibility, verification, or staged delivery across SaaS, workflow, integration, data, web, and agent systems.
+description: Evidence-informed product system design and architecture review for greenfield products, existing systems, feature evolution, and lightweight designs. Use when defining system responsibilities, capability boundaries, authoritative state, lifecycle ownership, security enforcement, extensibility, verification, or staged delivery across SaaS, workflow, integration, data, web, and agent systems.
 license: MIT
 ---
 
